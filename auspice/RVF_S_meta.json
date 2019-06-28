@@ -1,0 +1,337 @@
+{
+  "annotations": {
+    "nonstructural protein": {
+      "end": 801,
+      "start": 3,
+      "strand": 1
+    },
+    "nuc": {
+      "end": 1638,
+      "start": 0,
+      "strand": 1
+    },
+    "nucleocapsid protein": {
+      "end": 1622,
+      "start": 884,
+      "strand": -1
+    }
+  },
+  "author_info": {
+    "Grobbelaar et al": {
+      "n": 226
+    }
+  },
+  "color_options": {
+    "authors": {
+      "key": "authors",
+      "legendTitle": "Authors",
+      "menuItem": "authors",
+      "type": "discrete"
+    },
+    "country": {
+      "color_map": [
+        [
+          "angola",
+          "#e6194b"
+        ],
+        [
+          "burkina_faso",
+          "#3cb44b"
+        ],
+        [
+          "central_african_republic",
+          "#ffe119"
+        ],
+        [
+          "egypt",
+          "#0082c8"
+        ],
+        [
+          "guinea",
+          "#f58231"
+        ],
+        [
+          "kenya",
+          "#911eb4"
+        ],
+        [
+          "madagascar",
+          "#46f0f0"
+        ],
+        [
+          "mauritania",
+          "#f032e6"
+        ],
+        [
+          "mayotte",
+          "#d2f53c"
+        ],
+        [
+          "namibia",
+          "#fabebe"
+        ],
+        [
+          "saudi_arabia",
+          "#008080"
+        ],
+        [
+          "senegal",
+          "#e6beff"
+        ],
+        [
+          "south_africa",
+          "#fffac8"
+        ],
+        [
+          "sudan",
+          "#808080"
+        ],
+        [
+          "tanzania",
+          "#ffc2b3"
+        ],
+        [
+          "uganda",
+          "#b3e6ff"
+        ],
+        [
+          "zimbabwe",
+          "#aa6e28"
+        ],
+        [
+          "somalia",
+          "#ffd8b1"
+        ],
+        [
+          "zambia",
+          "#800000"
+        ]
+      ],
+      "key": "country",
+      "legendTitle": "country",
+      "menuItem": "country"
+    },
+    "gt": {
+      "key": "genotype",
+      "legendTitle": "Genotype",
+      "menuItem": "genotype",
+      "type": "discrete"
+    },
+    "host": {
+      "color_map": [
+        [
+          "human",
+          "#e6194b"
+        ],
+        [
+          "bat",
+          "#3cb44b"
+        ],
+        [
+          "mosquito",
+          "#ffe119"
+        ],
+        [
+          "ovine",
+          "#f58231"
+        ],
+        [
+          "bovine",
+          "#911eb4"
+        ],
+        [
+          "buffalo",
+          "#46f0f0"
+        ],
+        [
+          "caprine",
+          "#f032e6"
+        ],
+        [
+          "NotKnown",
+          "#008080"
+        ]
+      ],
+      "key": "host",
+      "legendTitle": "host",
+      "menuItem": "host"
+    },
+    "lineage": {
+      "key": "lineage",
+      "legendTitle": "lineage",
+      "menuItem": "lineage",
+      "type": "discrete"
+    },
+    "num_date": {
+      "key": "num_date",
+      "legendTitle": "Sampling date",
+      "menuItem": "date",
+      "type": "continuous"
+    },
+    "region": {
+      "color_map": [
+        [
+          "west_africa",
+          "#ffd8b1"
+        ],
+        [
+          "middle_east-egypt",
+          "#800000"
+        ],
+        [
+          "north-central_africa",
+          "#aaffc3"
+        ],
+        [
+          "east_africa",
+          "#808000"
+        ],
+        [
+          "indian_ocean_islands",
+          "#000080"
+        ],
+        [
+          "southern_africa_1",
+          "#1a1aff"
+        ],
+        [
+          "southern_africa_2",
+          "#e31a1c"
+        ]
+      ],
+      "key": "region",
+      "legendTitle": "region",
+      "menuItem": "region"
+    }
+  },
+  "defaults": {
+    "mapTriplicate": true
+  },
+  "filters": [
+    "country",
+    "region",
+    "authors"
+  ],
+  "geo": {
+    "country": {
+      "angola": {
+        "latitude": -11.202692,
+        "longitude": 17.873886999999968
+      },
+      "burkina_faso": {
+        "latitude": 12.238333,
+        "longitude": -1.5615930000000162
+      },
+      "central_african_republic": {
+        "latitude": 6.611110999999999,
+        "longitude": 20.93944399999998
+      },
+      "egypt": {
+        "latitude": 26.820553,
+        "longitude": 30.802498
+      },
+      "guinea": {
+        "latitude": 9.945587,
+        "longitude": -9.69664499999999
+      },
+      "kenya": {
+        "latitude": -0.023559,
+        "longitude": 37.90619300000003
+      },
+      "madagascar": {
+        "latitude": -18.766947,
+        "longitude": 46.869106999999985
+      },
+      "mauritania": {
+        "latitude": 21.00789,
+        "longitude": -10.940834999999993
+      },
+      "mayotte": {
+        "latitude": -12.8275,
+        "longitude": 45.166244000000006
+      },
+      "namibia": {
+        "latitude": -22.95764,
+        "longitude": 18.490409999999997
+      },
+      "saudi_arabia": {
+        "latitude": 23.885942,
+        "longitude": 45.079162
+      },
+      "senegal": {
+        "latitude": 14.497401,
+        "longitude": -14.452361999999994
+      },
+      "somalia": {
+        "latitude": 5.152149,
+        "longitude": 46.19961599999999
+      },
+      "south_africa": {
+        "latitude": -30.559482,
+        "longitude": 22.937505999999985
+      },
+      "sudan": {
+        "latitude": 12.862807,
+        "longitude": 30.217636
+      },
+      "tanzania": {
+        "latitude": -6.369028,
+        "longitude": 34.888822000000005
+      },
+      "uganda": {
+        "latitude": 1.373333,
+        "longitude": 32.290275000000065
+      },
+      "zambia": {
+        "latitude": -13.133897,
+        "longitude": 27.849332000000004
+      },
+      "zimbabwe": {
+        "latitude": -19.015438,
+        "longitude": 29.154856999999993
+      }
+    },
+    "region": {
+      "east_africa": {
+        "latitude": -0.023559,
+        "longitude": 37.90619300000003
+      },
+      "indian_ocean_islands": {
+        "latitude": -18.766947,
+        "longitude": 46.869106999999985
+      },
+      "middle_east-egypt": {
+        "latitude": 23.885942,
+        "longitude": 45.079162
+      },
+      "north-central_africa": {
+        "latitude": 6.611110999999999,
+        "longitude": 20.93944399999998
+      },
+      "southern_africa_1": {
+        "latitude": -30.559482,
+        "longitude": 22.937505999999985
+      },
+      "southern_africa_2": {
+        "latitude": -11.202692,
+        "longitude": 17.873886999999968
+      },
+      "west_africa": {
+        "latitude": 14.497401,
+        "longitude": -14.452361999999994
+      }
+    }
+  },
+  "maintainer": [
+    "Emma Hodcroft",
+    "https://neherlab.org/emma-hodcroft.html"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ],
+  "title": "Real-time tracking of RVF virus evolution: S-Segment",
+  "updated": "27 Jun 2019",
+  "virus_count": 226
+}
